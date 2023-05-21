@@ -1,0 +1,33 @@
+<!--
+<div style="margin-top: 30px; text-align: left;">
+  <p id="portfolioText">
+    Welcome to my Website Portfolio! I'm a self-taught Front-End Web Developer, passionate about crafting captivating and functional web experiences. 
+    With a strong foundation in HTML, CSS, and JavaScript, I bring together design and technology to create visually stunning websites.
+    Join me on this exciting journey where creativity meets technology. Let's make an impact together! Together, let's transform your ideas into remarkable online experiences that leave a lasting impression.
+    <span id="dots">...</span>
+    <span id="moreText" style="display: none;">
+      Additional text you want to reveal goes here.
+    </span>
+  </p>
+  <button id="seeMoreButton" onclick="toggleText()">See More</button>
+</div>
+
+<script>
+  // JavaScript code
+  function toggleText() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("moreText");
+    var button = document.getElementById("seeMoreButton");
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      moreText.style.display = "none";
+      button.innerHTML = "See More";
+    } else {
+      dots.style.display = "none";
+      moreText.style.display = "inline";
+      button.innerHTML = "See Less";
+    }
+  }
+</script>
+-->
